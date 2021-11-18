@@ -1,7 +1,9 @@
 # AngularMaterialUi
 
-### **Angular** **Material 安裝**
+## Angular Material 安裝
 
+### 安裝 Angular Material 指令如下
+ 
 ```bash
 npm install --save @angular/material @angular/cdk
 
@@ -9,6 +11,32 @@ or
 
 ng add @angular/material
 ```
+
+## 建立 MaterialsUiModule 
+
+```shell
+ng g module MaterialsUi --module app
+```
+
+### 將元件加入 MaterialsUiModule
+
+```
+import { MatSliderModule } from '@angular/material/slider';
+…
+@NgModule ({....
+  imports: [...,
+  MatSliderModule,
+…]
+
+
+
+```
+
+
+
+
+
+
 
 ### **mat-flat-button 顏色**
 
