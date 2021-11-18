@@ -1,9 +1,8 @@
 # AngularMaterialUi
+### **Angular** **Material 安裝**
 
-## Angular Material 安裝
+**安裝 Angular Material 指令如下**
 
-### 安裝 Angular Material 指令如下
- 
 ```bash
 npm install --save @angular/material @angular/cdk
 
@@ -12,33 +11,42 @@ or
 ng add @angular/material
 ```
 
-## 建立 MaterialsUiModule 
+### **建立 MaterialsUiModule**
 
-```shell
+```bash
 ng g module MaterialsUi --module app
 ```
 
-### 將元件加入 MaterialsUiModule
+### **將元件加入 MaterialsUiModule**
 
-```
+```bash
+//要記得手動加入
+
 import { MatSliderModule } from '@angular/material/slider';
+
 …
+
 @NgModule ({....
   imports: [...,
   MatSliderModule,
-…]
-
-
-
+…],
+	exports: [
+  MatSliderModule,
+  ]
+})
 ```
 
+### **建立 在頁面上加入 元件**
 
+```bash
+<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+```
 
+顯示如下圖 你會在頁面上看到這個 Material 滑塊元件。
 
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45df9c94-508d-43d4-8204-610d119d3b9f/Untitled.png)
 
-
-
-### **mat-flat-button 顏色**
+### **mat-flat-button 顏色**
 
 [Angular (forked) - StackBlitz](https://stackblitz.com/edit/angular-xzbxx4?file=app%2Fbutton-types-example.html)
 
