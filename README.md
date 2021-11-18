@@ -1,27 +1,31 @@
 # AngularMaterialUi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
+### **Angular** **Material 安裝**
 
-## Development server
+```bash
+npm install --save @angular/material @angular/cdk
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+or
 
-## Code scaffolding
+ng add @angular/material
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### **mat-flat-button 顏色**
 
-## Build
+[Angular (forked) - StackBlitz](https://stackblitz.com/edit/angular-xzbxx4?file=app%2Fbutton-types-example.html)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 參考:
 
-## Running unit tests
+[Components | Angular Material](https://material.angular.io/components/categories)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[Essential JS 2 for Angular (syncfusion.com)](https://ej2.syncfusion.com/angular/demos/#/material/uploader/image-preview)
 
-## Running end-to-end tests
+[Angular Material Datepicker Format (concretepage.com)](https://www.concretepage.com/angular-material/angular-material-datepicker-format)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+[Angular UI：Angular Material2 | Jonny Huang 的學習筆記 (jonny-huang.github.io)](https://jonny-huang.github.io/angular/training/07_angular_ui-material2/)
 
-## Further help
+[Angular Material - DatePicker. Angular Material 的中文資料真的很少QQ… | by itsems | itsems_frontend | Medium](https://medium.com/itsems-frontend/angular-material-datepicker-72c1a1a09d85)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[[Angular Material完全攻略] Day 01 - 開始 & 簡介 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 (ithome.com.tw)](https://ithelp.ithome.com.tw/articles/10192187)
+
+[[Angular Material完全攻略] Day 14 - 打造問卷頁面(6) - Checkbox、Radio和Slide Toggle - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 (ithome.com.tw)](https://ithelp.ithome.com.tw/articles/10195230)
