@@ -46,7 +46,7 @@ import { MatSliderModule } from '@angular/material/slider';
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45df9c94-508d-43d4-8204-610d119d3b9f/Untitled.png)
 
-### **mat-flat-button 顏色**
+### **mat-flat-button顏色**
 
 [Angular (forked) - StackBlitz](https://stackblitz.com/edit/angular-xzbxx4?file=app%2Fbutton-types-example.html)
 
